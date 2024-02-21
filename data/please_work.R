@@ -4,7 +4,7 @@ library(readxl)
 library(tidyverse)
 
 # Read the Excel file into R
-data <- read_excel("ZOOV212-prac-4-data.xlsx", sheet = "RawData", range = "A1:D10")
+data <- read_excel("data/ZOOV212-prac-4-data.xlsx", sheet = "RawData", range = "A1:D10")
 
 # Print the first few rows of the data to check its structure
 head(data)
